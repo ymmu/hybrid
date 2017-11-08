@@ -19,6 +19,7 @@ cover:            /assets/mountain-cover.jpg
 disqus_shortname: "jekylldecent"
 
 # Build settings
+baseurl:
 sass:
     style: compressed
 markdown: kramdown
