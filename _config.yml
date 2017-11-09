@@ -17,7 +17,6 @@ url:              "" # the base hostname & protocol for your site. Have a look a
 permalink:        /blog/:categories/:title
 cover:            /assets/cover-teahupoo.jpg
 disqus_shortname: ""
-category: categoryName
 
 # Build settings
 baseurl:
