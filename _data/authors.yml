@@ -1,7 +1,7 @@
 default:                                                      # Fallback if nothing is specified
   initial:      myohyun                                       # used for author lookup in posts and for first two characters in the about page back button
   name:         "Min-yeong Luke Choi"                               # used to display author name
-  cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
+  cover:        /assets/cvprofile.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/profile.jpg                           # OPTIONAL: author picture
   bio:          A surfer/swimmer/nomad programmer/extreme sports lover!                               # OPTIONAL: text below author name in posts
   location:     Now Korea                                       # OPTIONAL: used to display location of the author
