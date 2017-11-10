@@ -1,14 +1,14 @@
 jdecent:
     profile: "Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac nisl finibus dictum. Pellentesque vel orci et nisi pretium tincidunt nec a diam. Vivamus et leo eu lorem congue pellentesque id sed tortor. Nulla et nibh neque. Sed ut fermentum lectus, id rhoncus erat."
     skills:
-        - "C#, ASP.NET MVC"
-        - "XAML, WPF, LINQ, Silverlight"
-        - "JavaScript, jQuery, HTML5, CSS, LESS"
-        - "Web Services, Active Directory, Windows 10, Windows Phone Apps"
+        - "C++"
+        - "JAVA, Spring framework"
+        - "JavaScript, jQuery, Node.js"
+        - "Basic HTML5, CSS"
     education:
-        - time:             "2009 - 2011"
-          location:         "University of Someplace"
-          description:      "BSc in Applied Computer Science"
+        - time:             "2009 - 2013", "2013 - "
+          location:         "University of Yonsei"
+          description:      "in master's course of Mathematics"
     employment:
         - time:             "02.2015 - 11.2017"
           location:         "Stuttgart"
@@ -35,19 +35,5 @@ jdecent:
             - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet finibus libero sed ullamcorper. Donec."
             - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed."
             - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales ligula sit amet nisl pellentesque, eu cursus neque."
-        - time:             "9 months in 2016"
-          team:             "Team of 6"
-          title:            "Android App"
-          technologies:     "Mono, .NET"
-          responsibilities:
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."
-        - time:             "3 months in 2015"
-          team:             "Team of 2"
-          title:            "Software Evaluation"
-          technologies:     "Recruting, .NET"
-          responsibilities:
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."
+
+
