@@ -16,8 +16,9 @@ tags:              js-node
 3. server.js - map/(hour) 는 오늘날짜-관심스팟들의 현재 시간대에 가장 가까운 데이터만 불러온다. ->구글맵 스팟을 클릭했을 때 infowindow에 뿌려주기 위해 만들었음. (근데 나라별로 시간대가 다르잖아..? 그걸 생각을 못했네;;)
 4. 4.infowindow.js - 서버로부터 데이터를 받아온 후 map을 초기화하도록 만듦. getJSON 함수 콜백으로 initMap()내용- 마커와 infowindow 세팅 내용을 넣어줌.
 5. sql문 및 기타 자잘한 syntax error 수정. 정말 자잘해서 생각도 잘 안 난다...(...)
+
 <figure>
-<img src="{{ "/media/img/제목 없음.png" | absolute_url }}" />
+<img src="{{ "/media/img/17_11_13_0.png" | absolute_url }}" />
 <figcaption>A window info is shown when spot is clicked </figcaption>
 </figure>
 
