@@ -3,7 +3,7 @@ layout:    about
 permalink: "/about"
 author:    ymmu
 keywords:  about person demo example
-title:     About me
+title:     About Jekyll Decent
 menutitle: About
 weight:    90
 excerpt:   This page contains the curriculum vitae (CV) of the author.
