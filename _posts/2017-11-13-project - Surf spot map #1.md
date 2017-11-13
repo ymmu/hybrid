@@ -1,7 +1,7 @@
 ---
 layout:            post
-title:             "17/11/13 - project - Surf spot map"
-menutitle:         "17/11/13 - project - Surf spot map"
+title:             "17/11/13 - project - Surf spot map #1"
+menutitle:         "17/11/13 - project - Surf spot map #1"
 category:          project
 author:            myohyun
 tags:              js-node
