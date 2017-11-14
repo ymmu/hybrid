@@ -1,3 +1,12 @@
+---
+layout:            post
+title:             "17/11/14 - project - Surf spot map #2"
+menutitle:         "17/11/14 - project - Surf spot map #2"
+category:          project
+author:            myohyun
+tags:              js-node
+---
+
 <!--
 
 아이디어 수집..어떤 기능을 추가할까? 사이트의 목적을 명확하게.
@@ -15,19 +24,10 @@ favorite 스팟으로 설정하기.
 # 서버 및 기타 파일들 관계 문서화
 -->
 
----
-layout:            post
-title:             "17/11/14 - project - Surf spot map #2"
-menutitle:         "17/11/14 - project - Surf spot map #2"
-category:          project
-author:            myohyun
-tags:              js-node
----
 
+# Today's work - 11/14 tue
 
-#Today's work - 11/14 tue
-
-##project- noname
+## project- noname
 1. server.js 정리 위해 모듈 분리.
 
 2. 혹시 몰라 push 전에 backup파일 받아둠(E:\project)
@@ -48,7 +48,7 @@ server에서 mysql을 초기화 한 후에 요청이 들어왔을 때 client를 
 2. session 처리 / app종료할 때 db도 close하는 등 자잘한 설정들 책으로 체크하고 가야할 듯.
 
 
-##To do list (in order of priority) 
+## To do list (in order of priority) 
 
 (17-11-13~)
 
@@ -58,7 +58,7 @@ server에서 mysql을 초기화 한 후에 요청이 들어왔을 때 client를 
 
 3. express 에서 app.get(...)을 쓰려했더니 not resolvec 라고...뭥미? 버전 확인을 했는데 4.16.였는데. router 뗌에 이제 지원을 안 하는 건가? 싶기도 하고. app.get(..) 시리즈와 router와의 차이, Router에 대해 좀 정리해놔야 할 듯하다.
 
-4. #####내일은 뭐할까? 
+4. ##### 내일은 뭐할까? 
 - 아이디어 수집..어떤 기능을 추가할까? 사이트의 목적을 명확하게.
 - 이미 다녀왔던 스팟은 색깔을 다르게 표시하기.
 - infowindow에 제목 등을 클릭하면 7일간 스팟 컨디션 다 볼 수 있게.
@@ -71,7 +71,6 @@ server에서 mysql을 초기화 한 후에 요청이 들어왔을 때 client를 
 - 상급. 중급. 초보 등등도 표시할 수 있게.
 - 로컬스팟인지도 표시할 수 있을 듯
 
-##TIL
-1. 미들웨어(app.use(...))는 적은 순서대로 실행된다. next()로 넘겨줘야 실행된다. 
-2. google map 다루기. 마커와 infowindow 처리. 아직 더 재밌는 것들을 할 수 있을듯..
+## TIL
+1. 모듈작성법
 
