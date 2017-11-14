@@ -33,14 +33,18 @@ favorite 스팟으로 설정하기.
 2. 혹시 몰라 push 전에 backup파일 받아둠(E:\project)
 
 3. 분리한 모듈들
-3.1. **router 파일** (router 정리한 파일)
-3.2. **DB 파일** (mysql 관련 함수(insert, update, delete etc) 모아둠 . mysql/mongodb 파일 분리해서 정리할 것임)
-3.3. **map** ( map관련 정보 가져오는 get, post 함수들 정리)
-3.4. **config.js** - 환경설정. 포트번호, mysql id/pwd. 라우터정보도 여기있다.
+
+---3.1. **router 파일** (router 정리한 파일)
+
+---3.2. **DB 파일** (mysql 관련 함수(insert, update, delete etc) 모아둠 . mysql/mongodb 파일 분리해서 정리할 것임)
+
+---3.3. **map** ( map관련 정보 가져오는 get, post 함수들 정리)
+
+---3.4. **config.js** - 환경설정. 포트번호, mysql id/pwd. 라우터정보도 여기있다.
 
 4. 데이터수집. 데이터분석/제공 사이트에서 여행관련 데이터를 가져옴. 아무 데이터로 데이터분석 공부를...
 
-** *여전히 해결하고 싶은 것**:
+***여전히 해결하고 싶은 것**:
 
 1. server.js의 mysql에서 init()한 후 생기는 client를 다른 모듈에도 다 같이 쓰고 싶은데 라우터를 분리하면서 쉽지가 않네..
 server에서 mysql을 초기화 한 후에 요청이 들어왔을 때 client를 다 쓸 수 있게 해줘야 하는데..이거 어떻게 해결해야 하지? 지금은 그냥 모듈 별로 sql모듈 사용해서 client 객체 만들어서 데이터 받아오게 하고 있음.
