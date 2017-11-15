@@ -7,7 +7,7 @@ author:            myohyun
 tags:              js-node
 ---
 
-#MogoDB란?
+# MogoDB란?
 
 MongoDB는 비관계형 데이터베이스.
 mysql같은 관계형 데이터베이스를 쓰다 MongoDB를 쓰니 이건 또 뭔 이상한 놈인가 싶은 생각이 먼저 들었는데 알면 알 수록 기묘한 매력이 있다?
