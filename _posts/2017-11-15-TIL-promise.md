@@ -1,19 +1,29 @@
 
 # Promises
 
-1. 객체(클래스)이다.
+ 1. 객체(클래스)이다.
 
-2. 비동기(asynchronous) 프로그래밍을 위한 개념이다.
+ 2. 비동기(asynchronous) 프로그래밍을 위한 개념이다.
 
-3. Promises로 쓸 수 있는 다양한 라이브러리가 있다. Node.js의 Global에 Promise객체가 이미 들어가 있다. Node.js
-
-
-*장점: 함수가 리턴하는 Promise 객체와 .then()함수 등으로 기존의 콜백함수가 지저분하게 나열되는 것을 막을 수 있다.
+ 3. Promises로 쓸 수 있는 다양한 라이브러리가 있다. Node.js의 Global에 Promise객체가 이미 들어가 있다. Node.js
 
 
 
-**아래의 글을 번역:
+**장점: 함수가 리턴하는 Promise 객체와 .then()함수 등으로 기존의 콜백함수가 지저분하게 나열되는 것을 막을 수 있다.**
+
+
+
+
+
+
+
+
+**아래의 글을 번역:**
 [https://developer.ibm.com/node/2016/08/24/promises-in-node-js-an-alternative-to-callbacks/](http://)
+
+
+
+
 
 콜백함수는 자바스크립트에서 비동기 코드를 다루기 위한 가장 단순한 메카니즘이다.
 그렇지만 가공되지 않은 콜백함수는 control flow, exception handling, 동기화 코드와 친숙한 function의 의미를 희생시킨다. Promise는 위의 잃어버린 개념들을 다시 되찾을 수 있는 방법을 제공한다.
