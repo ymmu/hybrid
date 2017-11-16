@@ -24,7 +24,7 @@ tags:              js-node
 
 
 
-
+[Mongoose site 참고](http://mongoosejs.com/docs/promises.html)
 
 
 **아래의 글을 번역:**
