@@ -1,3 +1,12 @@
+---
+layout:            post
+title:             "17/11/15 - TIL - Promises"
+menutitle:         "17/11/15 - TIL - Promises"
+category:          js/node
+author:            myohyun
+tags:              js-node
+---
+
 
 # Promises
 
