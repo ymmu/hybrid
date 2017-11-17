@@ -25,7 +25,7 @@ tags:              js-node
 
 
 [Mongoose site 참고](http://mongoosejs.com/docs/promises.html)
-
+[Using promises(번역해 놓고 보니 이게 더 예시가 잘 나온 듯한...??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
 **아래의 글을 번역:**
 [Promises in Node.js – An Alternative to Callbacks](https://developer.ibm.com/node/2016/08/24/promises-in-node-js-an-alternative-to-callbacks/)
@@ -118,9 +118,9 @@ readFile()
 
 # Promises and synchronous functions
 
-Promises는 동기함수들을 모형화? 한다. 한 가지 방법은 다른 함수를 부르는 대신에 연속작업을 위해 return을 사용하는 것이다. 그 전 예에서는 readFile()이 끝난 후에 할 작업을 알려주기 위해 readAnotherFile()를 리턴한다.
+Promises는 동기(synchronous)함수들을 다양한 방식으로 모델링할 수 있다. 한 가지 방법은 다른 함수를 부르는 대신에 연속작업을 위해 return을 사용하는 것이다. 그 전 예에서는 `readFile()`이 끝난 후에 할 작업을 알려주기 위해 `readAnotherFile()`를 리턴한다.
 
-만약 당신이 promise를 리턴한다면, 그것은 비동기작업이 끝났을 때 다음 `then` method에 신호를 보낼 것이다. 당신은 또한 이외의 값들을 리턴할 수 있고 다음 onFulfilled 함수가 리턴된 값을 이용할 것이다.
+만약 당신이 promise를 리턴한다면, 그것은 비동기 작업이 끝났을 때 다음 `then` method에 신호를 보낼 것이다. 당신은 또한 이외의 값들을 리턴할 수 있고 다음 `onFulfilled` 함수가 리턴된 값을 이용할 것이다.
 
 ```c
 readFile()
@@ -134,7 +134,7 @@ readFile()
 
 # Error handling in promises
 
-return 이외에도, 'throw', 'try/catch' 키워드 또한 사용할 수 있다.
+`return` 이외에도, `throw`, `try/catch` 키워드 또한 사용할 수 있다.
 이것은 promise의 가장 강력한 특징 중의 하나라고 말할 수 있을 듯 하다. 예를 들어, 다음과 같은 동기화 코드(synchronous code)를 살펴보자.
 
 ```c
@@ -146,7 +146,7 @@ try {
 }
 ```
 
-이 예에서, `doThis()` 이나 `doThat()` 함수가 에러를 던진다면, 우리는  에러를 잡아 log할 수 있다. `try/catch` 블록은 여러 작업들을 그룹화하는 것을 허락하기 때문에, 각 작업마다 error를 명시적으로 다뤄야 하는 것을 피할 수 있다. 우리는 promises로 비동기적으로 이 작업을 할 수 있다.
+이 예에서, `doThis()` 이나 `doThat()` 함수가 에러를 던진다면, 우리는  에러를 잡아 log할 수 있다. `try/catch` 블록은 여러 작업들을 그룹화하는 것을 허락하기 때문에, 각 작업마다 error를 명시적으로 다뤄야 하는 것을 피할 수 있다. 우리는 promise를 이용해 비동기적으로 이 작업을 할 수 있다.
 
 ```c
 doThisAsync()
@@ -154,7 +154,7 @@ doThisAsync()
   .then(undefined, console.error)
 ```
 
-만약 doThisAsync() 함수가 성공적이지 못 하면, 이 promise는 거부되고 체인의 다음 `then` 함수 with an onRejected handler 가 불릴 것이다. 다른 경우로  `console.error` 함수가 있다.  `try/catch` 함수블록과 같이, `doThisAsync()`함수는 절대 불리지 않는다.  이것은 우리가 각 스탭마다 명시적으로 에러를 다루어야 하는 raw 콜백함수를 넘어선 커다란 진전이다.
+만약 doThisAsync() 함수가 성공적이지 못 하면, 이 promise는 거부되고 onRejected handler와 함께 체인의 다음 `then` 함수   가 불릴 것이다. 위의 예시의 경우는  `console.error` 함수가 불릴 것이다.  `try/catch` 함수 블록과 같이, `doThatAsync()`함수는 절대 불리지 않는다.  이것은 우리가 각 스탭마다 명시적으로 에러를 다루어야 하는 raw 콜백함수를 넘어선 커다란 진전이다.
 
 그러나, 이것은 더 좋아질 수 있다. `then` 콜백함수로부터 명시적이든, 암시적이튼 던져진 예외는 다시 promise로 다루어질 수 있다.
 
