@@ -28,7 +28,7 @@ tags:              js-node
 
 
 **아래의 글을 번역:**
-[https://developer.ibm.com/node/2016/08/24/promises-in-node-js-an-alternative-to-callbacks/](http://)
+[Promises in Node.js – An Alternative to Callbacks](https://developer.ibm.com/node/2016/08/24/promises-in-node-js-an-alternative-to-callbacks/)
 
 
 
@@ -51,7 +51,7 @@ onFulfilled 와 onRejected 함수는 비동기 작업이 끝나 promise가 얻�
 
 # Callbacks to promises
 
-기초 Promise의 지식을 바탕으로 익숙한 비동기 노드 콜백함수를 보자.
+기초 Promise의 지식을 바탕으로, Node.js에서 자주 봐온 비동기 콜백함수를 보자.
 
 ```c
 readFile(function (err, data) {
@@ -67,9 +67,9 @@ promise.then(console.log, console.error)
 
 ```
  대충 봤을 때는 (코드 길이의 간결함으로 인한 )심미적인 차이밖에 없는 듯 하다. 하지만 promise로 비동기 작업을 나타내는 값에 접근할 수 있게 되었다! 
-우리는 이 promise 값을 다른 곳에 전달할 수 있고,  promise에 접근하는 누군가가 `then`함수를 사용하여 비동기작업이 완료 유무에 상관없이 이 값을 사용할 수 있다. 또한, 우리는 비동기 작업의 결과가 바뀌지 않는다는 보증을 얻을 수 있다. 왜냐하면 will only be resolved once.
+우리는 이 promise 값을 다른 곳에 전달할 수 있고,  promise에 접근하는 누군가가 `then`함수를 사용하여 비동기 작업의 완료 여부에 상관없이 이 값을 사용할 수 있다.(promise라는 변수로 비동기 작업 값을 정의했기 때문에 이 변수를 이용하여 다른 코드를 짤 수 있다는 것을 말하는 듯.?) 또한, promise는 한 번만 구해지기 때문에 우리는 비동기 작업의 결과가 어떻든 간에 바뀌지 않는다는 보증을 얻을 수 있다. 
 
-> 'then' method를 단지 두 개의 콜백함수를 가지는 함수로 보는 것 뿐 아니라 비동기 작업으로부터 일어난 것들을 밝히기 위한 promise를 제공하는 함수로 보는게 도움이 된다.
+> 'then' method를 단지 두 개의 콜백함수를 가지는 함수로 볼게 아니라 비동기 작업으로부터 일어난 것들을 밝히기 위해 promise를 열어보는(unwrap) 함수라고 생각하는게 더 도움이 된다.
 
 # Chaining and nesting promises
 
