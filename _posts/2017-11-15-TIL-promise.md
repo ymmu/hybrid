@@ -25,6 +25,7 @@ tags:              js-node
 
 
 [Mongoose site 참고](http://mongoosejs.com/docs/promises.html)
+
 [Using promises(번역해 놓고 보니 이게 더 예시가 잘 나온 듯한...??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
 **아래의 글을 번역:**
