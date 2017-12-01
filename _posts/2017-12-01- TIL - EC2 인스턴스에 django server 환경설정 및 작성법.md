@@ -228,5 +228,9 @@ def calVec():
     return np.random.randn(2, 3).tolist() 
 ##  Array로 그냥 보내면 json 변환이 안 된다. tolist()꼭 붙여야
 
-```
 
+```
+<figure>
+   <img src="{{ "/media/img/Screenshot from 2017-12-01 18-38-53.png" | absolute_url }}" />
+   <figcaption>장고서버 접속 후 /postman/ 경로로 데이터 뿌려주기 결과</figcaption>
+</figure>
