@@ -1,10 +1,10 @@
 ---
-layout:            post
-title:             "17/12/01- TIL - EC2 인스턴스에 django server 환경설정 및 작성법"
-enutitle:          "17/12/01- TIL - EC2 인스턴스에 django server 환경설정 및 작성법"
+layout:            post
+title:            "17/12/01- TIL - EC2 인스턴스에 django server 환경설정 및 작성법"
+menutitle:         "Basic functions for node programming"
 category:          Machine learning
 author:            myohyun
-tags:              Machine learning
+tags:	 Machine learning
 ---
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
