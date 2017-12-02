@@ -27,7 +27,7 @@ $ . myvenv/bin/activate
 
 ## MTV 개발방식
 
-**모델: ** 테이블 정의(model.py)(데이터베이스 테이블!)
+**모델:** 테이블 정의(model.py)(데이터베이스 테이블!)
 
 **템플릿:** 사용자가 보게 될 화면의 모습을 정의(templates 폴더 및 *.html 파일에)
 
@@ -59,9 +59,11 @@ $ . myvenv/bin/activate
 
 ### URLconf주요사항
 
-###views.py주요사항
+### views.py주요사항
 
-### ADmin사이트
+### ADmin사이트 
+
+### 서버
 
 개발용 웹 서버  - runserver
 
@@ -167,7 +169,7 @@ def showAll(request):
 4.1 views.py모듈 잘못해서 난 에러모음
 
 ```python
-showAll(request) rerquest를 안 넣어줘서 그런 것 아닌가 싶은데....
+showAll(request) #rerquest를 안 넣어줘서 그런 것 아닌가 싶은데....
 ```
 
 관련 에러
@@ -230,5 +232,5 @@ def calVec():
 ```
 <figure>
    <img src="{{ "/media/img/Screenshot from 2017-12-01 18-38-53.png" | absolute_url }}" />
-   <figcaption>장고서버 접속 후 /postman/ 경로로 데이터 뿌려주기 결과</figcaption>
+   <figcaption>장고서버 접속 후 /postman/ 경로로 데이터 뿌려주기 결과.유후~성공!!</figcaption>
 </figure>
