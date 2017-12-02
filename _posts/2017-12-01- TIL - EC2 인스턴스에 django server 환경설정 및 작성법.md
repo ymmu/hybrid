@@ -61,7 +61,9 @@ $ . myvenv/bin/activate
 
 ### views.py주요사항
 
-### ADmin사이트 
+### ADmin사이트
+
+
 
 ### 서버
 
