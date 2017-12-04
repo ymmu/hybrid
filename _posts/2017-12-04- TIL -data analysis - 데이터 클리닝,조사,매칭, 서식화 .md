@@ -1,7 +1,7 @@
 ---
 layout:            post
-title:             "17/12/04 - TIL - test"
-menutitle:         "17/12/04 - TIL - test"
+title:             "17/12/04 - TIL - 데이터 클리닝,조사,매칭, 서식화"
+menutitle:         "17/12/04 - TIL - 데이터 클리닝,조사,매칭, 서식화"
 category:          data analysis
 author:            myohyun
 tags:              python
