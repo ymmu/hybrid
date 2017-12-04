@@ -1,10 +1,10 @@
 ---
 layout:            post
-title:             "17/12/15 - TIL - test"
-menutitle:         "17/12/15 - TIL - test"
-category:          js/node
+title:             "17/12/04 - TIL - test"
+menutitle:         "17/12/04 - TIL - test"
+category:          data analysis
 author:            myohyun
-tags:              js-node
+tags:              python
 ---
 
 (파이썬을 활용한 데이터길들이기 7장 참고)
