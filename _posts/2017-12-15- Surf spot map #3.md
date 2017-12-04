@@ -4,7 +4,7 @@ title:             "17/12/03 - project - Surf spot map #3"
 menutitle:         "17/12/03 - project - Surf spot map #3"
 category:          js/node
 author:            myohyun
-tags:              js-node
+tags:              project
 ---
 
 # Today's work - 12/03 sun
