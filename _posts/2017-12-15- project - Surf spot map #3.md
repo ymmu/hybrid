@@ -2,9 +2,9 @@
 layout:            post
 title:             "17/12/03 - project - Surf spot map #3"
 menutitle:         "17/12/03 - project - Surf spot map #3"
-category:          js/node
+category:          project
 author:            myohyun
-tags:              project
+tags:              js-node
 ---
 
 # Today's work - 12/03 sun
