@@ -4,7 +4,7 @@ title:             "17/12/03 - TIL - javascript 인스턴스객체 모듈화 할
 menutitle:         "17/12/03 - TIL - javascript 인스턴스객체 모듈화 할 떄 주의점"
 category:          js/node
 author:            myohyun
-tags:              js-node
+tags:              js/node
 ---
 
 ## 어마어마한 삽질
