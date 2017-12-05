@@ -84,6 +84,7 @@ ensemble method는 여러가지 learner를 조합해서 만들 수 있는데, �
 `D` **구하는 법:**
 
 if(예측값의 요소 == 훈련셋의 라벨 요소)
+
 $$ D_{t+1}=\frac{D_{t}*e^{+\alpha}}{sum{D}}$$
 
 else
