@@ -1,7 +1,7 @@
 ---
 layout:            post
-title:             "17/12/15 - TIL - AdaBoost 알고리즘"
-menutitle:         "17/12/15 - TIL - AdaBoost 알고리즘"
+title:             "17/12/05 - TIL - AdaBoost 알고리즘"
+menutitle:         "17/12/05 - TIL - AdaBoost 알고리즘"
 category:          machine learning
 author:            myohyun
 tags:              python
