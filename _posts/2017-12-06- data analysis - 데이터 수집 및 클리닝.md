@@ -53,7 +53,7 @@ with open('flight_code.csv', 'w', newline='') as csvfile:
     writer.writerows(fc_list)
 
 ```
-##fc_list결과
+## fc_list결과
 ```python
 fc_list
 
