@@ -78,6 +78,7 @@ x = sorted(x, key= abs, reverse=False) # 있는 함수 줘도 된다
 
 ```
 12. list comprehension : pythonic하게 
+
 ```python
 even_num = [x for x in range(5) if x%2 == 0 ] # [0,2,4]
 
